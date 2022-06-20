@@ -1,0 +1,15 @@
+<div>
+  <span style="background-color:yellow;"><a href="https://en.wikipedia.org/wiki/Group_velocity">Group velocity</a></span>,
+  <span style="background-color:red;"><a href="https://en.wikipedia.org/wiki/Phase_velocity">Phase velocity</a></span><br>
+  <var>A cos((k - Δk)x - (ω - Δω)t) + A cos((k + Δk)x - (ω + Δω)t)</var><br>
+  <var>k</var>
+  <input type="range" id="k" name="k" min="0" max="100" value="75">
+  <var>Δk</var>
+  <input type="range" id="dk" name="dk" min="0" max="100" value="75">
+  <var>ω</var>
+  <input type="range" id="w" name="w" min="0" max="100" value="75">
+  <var>Δω</var>
+  <input type="range" id="dw" name="dw" min="0" max="100" value="75">
+</div>
+<canvas id="canvas" width="800" height="600"></canvas>
+<script src="index.js"></script>
